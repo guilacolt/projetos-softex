@@ -1,7 +1,7 @@
 ano = True
 while ano == True:
     try:
-        nome = input("Qual o seu nome?")
+        nome = input("Qual o seu nome completo?")
         nascimento = int(input("Qual o ano do seu nascimento?"))
         if nascimento >= 1922 and nascimento <= 2021:
             idade = 2022 - nascimento
