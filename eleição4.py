@@ -9,7 +9,7 @@ candidatos = {"candidato A":0, "candidato B":0, "candidato C": 0, "branco": 0 , 
 votação = True
 while votação:
     print("Apresentamos a urna eleitoral para eleições para o chanceler da república galática.")
-    print("O cidadão tem as seguintes escolhas: para candidato A digite '889' , para candidato B digite '847', para candidato C digite '515' e se deseja nulo digite '0'.")
+    print("O cidadão tem as seguintes escolhas: para candidato A digite '889' , para candidato B digite '847', para candidato C digite '515' e se deseja branco digite '0'.")
     try:
         voto = int(input())
         if voto == Candidatos.candidato_a.value:
