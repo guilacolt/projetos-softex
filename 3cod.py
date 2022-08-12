@@ -10,6 +10,7 @@ print(x)
 x = "Eu não fui comprar cigarro"
 len(x)
 print(len(x))
+..
 
 
 
