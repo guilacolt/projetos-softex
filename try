@@ -1,0 +1,15 @@
+public static void main (String[] args) 
+
+  try {
+
+    System.out.println(1 / 0);
+
+  } catch (Exception excecao) {
+
+    System.out.println(Ocorreu o erro: “ + excecao.getMassage());
+
+  } 
+
+  System.out.println(“Fim”);
+
+}
