@@ -1,4 +1,4 @@
-const Computador = require ('./class');  
+const Computador = require ('./computador');  
 
 class Pc extends Computador {  
     constructor(ram, hdd, cpu, type) {  

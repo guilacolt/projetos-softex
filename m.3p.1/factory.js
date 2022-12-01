@@ -1,7 +1,7 @@
 const Server = require("./server");
 const Pc = require("./pc");
 
-class ComputerFactory {
+class Compfactory {
     constructor (ram, hdd, cpu, type) {
         if (type === "Pc"){
             return new Pc (ram, hdd, cpu, type);
@@ -13,4 +13,4 @@ class ComputerFactory {
     }
 }
 
-module.exports = ComputerFactory; 
+module.exports = Compfactory; 
