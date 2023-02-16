@@ -1,5 +1,5 @@
-create database projeto9;
-use projeto9;
+create database m4p9;
+use m4p9;
 
 CREATE TABLE Produtos
 (
